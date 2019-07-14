@@ -53,3 +53,31 @@ puts lucky_numbers[2..4]
 puts "\n\n"
 
 puts lucky_numbers.length
+
+---------------------------------------
+
+Adding Elements
+
+An array can contain different types of elements:
+arr = [5, "Dave", 15.88, false]
+
+puts arr[0] # 5
+puts arr[1] # "Dave"
+puts arr[-1] # false
+
+
+To add new elements to the array, you can use the << operator, which is typed as two less than signs:
+arr << 8
+
+puts arr
+
+
+This will add an element with the value 8 to the end of the array.
+Alternatively, you can use the push and insert methods (we will learn more about methods in the coming module. For now, just remember that a method is code that performs an action).
+arr.push(8)
+
+
+This will add 8 to the end of the array.
+
+The insert method allows you to insert the element at the desired position:
+arr.insert(2, 8)
