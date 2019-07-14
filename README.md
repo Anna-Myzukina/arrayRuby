@@ -13,6 +13,14 @@ array.include?(obj)| returns true if obj is present in array, false otherwise.
 array.min | returns the element with the minimum value.
 array.max | returns the element with the maximum value.
 
+
+ to add "z" to the array, remove all duplicates, and output the number of its elements.
+
+          arr = ["a", "b", "a"]
+          arr  << "z"
+          arr.uniq!
+          puts arr.size
+
 Up until this point in the course, we've been working with different types of data, and generally we've been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container.
 
 But variables as we've seen them so far do have one short coming, and that's when it comes to storing large amounts of related data.
