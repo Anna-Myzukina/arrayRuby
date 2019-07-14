@@ -1,4 +1,17 @@
 # arrayRuby
+Array Methods
+
+There are a number of other useful methods available for manipulating arrays.
+Here are some of the most used ones:
+---------------------------------------------------------------------
+array.length or array.size |returns the number of elements in array.
+array.sort | returns a new array with the elements sorted
+array.uniq | returns a new array with duplicate values removed from array.
+array.uniq!| removes duplicates in place.
+array.freeze | safeguards the array, preventing it from being modified.
+array.include?(obj)| returns true if obj is present in array, false otherwise.
+array.min | returns the element with the minimum value.
+array.max | returns the element with the maximum value.
 
 Up until this point in the course, we've been working with different types of data, and generally we've been using variables to store that data. Variables are great because we can take pieces of data that would otherwise be difficult to remember and keep track of and store them in a nice, named container.
 
