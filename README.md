@@ -2,8 +2,8 @@
 Array Methods
 
 There are a number of other useful methods available for manipulating arrays.
-Here are some of the most used ones:
----------------------------------------------------------------------
+Here are some of the most used ones: |
+-------------------------------------|--------------------------------
 array.length or array.size |returns the number of elements in array.
 array.sort | returns a new array with the elements sorted
 array.uniq | returns a new array with duplicate values removed from array.
